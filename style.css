@@ -1,0 +1,110 @@
+body{
+    text-align: center;
+    font-family: happy monkey;
+    background:linear-gradient(#f7f779,#fbd07c);
+    color: #3D0C02;
+    display: flex;
+    flex-direction: column;
+}
+#jesse-img{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #FFBF00;
+}
+h1,h2,h3,h4{
+    text-shadow: 0px 0px 15px rgb(63, 24, 24);
+}
+#bday-age{
+    background: #FFBF00 ;
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin: 15px 0 10px 0;
+}
+#bday-date{
+    margin: 0;
+    background: #FFBF00 ;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    margin: 0 auto;
+    background-image: url(images/gift-cover.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 8px solid white;
+    border-radius: 10px;
+}
+#gift-img-happy:hover{
+    background-image: url(images/happy.gif);
+    background-size: cover;
+}
+#gift-img-jane:hover{
+    background-image: url(images/jane.gif);
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-jesse-b:hover{
+    background-image: url(images/jesse-b.gif);
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-walter-white:hover{
+    background-image: url(images/walter-white.gif);
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-tuco:hover{
+    background-image: url(images/tuco.gif);
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-saul:hover{
+    background-image: url(images/saul-godman.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.gift-img-landscape{
+    margin: 0 auto;
+    background-image: url(images/gift-cover.jpg);
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    border: 8px solid white;
+    border-radius: 10px;
+}
+#gift-img-cheers:hover{
+    background-image: url(images/cheers2.gif);
+    background-size: cover;
+    background-position: top;
+}
+
+#gift-img-gus:hover{
+    background-image: url(images/fring.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-bottom: 25px;
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+a{
+    color: #3D0C02;
+}
